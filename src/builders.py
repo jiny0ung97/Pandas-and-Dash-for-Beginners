@@ -1,5 +1,6 @@
 import dash_html_components as html
 
+
 def make_table(df):
     return html.Table(
         children=[
@@ -15,7 +16,6 @@ def make_table(df):
                             "display": "grid",
                             "gridTemplateColumns": "repeat(4, 1fr)",
                             "fontWeight": "600",
-                            "fontSize": 22,
                             "fontSize": 16,
                         },
                     )
